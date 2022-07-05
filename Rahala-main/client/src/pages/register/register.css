@@ -1,0 +1,45 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lInput{
+    width:350px;
+    height: 50px;
+    padding: 15px 20px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #20475b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width:175px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+
+
+  @media screen and (max-width: 980px) {
+    .register {
+      margin-top: 0%;
+      height: 140vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
